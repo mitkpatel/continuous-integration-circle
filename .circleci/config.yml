@@ -15,7 +15,7 @@ jobs:
 
       - run:
           name: build the jekyll site
-          command: bundle exec jekyll build
+          command:  bundle exec jekyll build
 
       - run:
           name: notify build is finished
